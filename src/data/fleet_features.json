@@ -1,0 +1,105 @@
+{
+    "courses": [
+      {
+        "id": 112,
+        "title": "Vehicle Tracking and Route Optimization",
+        "slug": "vehicle-tracking-and-route-optimization",
+        "description": "Learn how to track your fleet in real-time using GPS and optimize vehicle routes to reduce fuel costs and improve efficiency.",
+        "price": 99.99,
+        "instructor": "John Doe",
+        "isFeatured": true,
+        "image": "https://img.freepik.com/free-vector/transport-tracking-horizontal-banners_1284-23393.jpg?t=st=1734895723~exp=1734899323~hmac=b8a8e2ce0dfd272b381a86fb6b70b6f34e9f1784fefdafc7a4d59d10bdc9a4a5&w=740"
+      },
+      {
+        "id": 222,
+        "title": "Driver Performance Management",
+        "slug": "driver-performance-management",
+        "description": "Enhance fleet performance by monitoring and managing driver behavior, scheduling, and safety protocols.",
+        "price": 109.99,
+        "instructor": "Jane Smith",
+        "isFeatured": false,
+        "image": "https://img.freepik.com/free-vector/tiny-business-people-look-product-performance-indicator_335657-2444.jpg?t=st=1734895416~exp=1734899016~hmac=f906356d267cebdd70365d80ff0b664b1713cb5ad7098d83f902b0199d7a1f7f&w=1060"
+      },
+      {
+        "id": 333,
+        "title": "Fleet Maintenance and Diagnostics",
+        "slug": "fleet-maintenance-and-diagnostics",
+        "description": "Understand the importance of vehicle maintenance, learn diagnostic techniques, and manage fleet maintenance schedules effectively.",
+        "price": 119.99,
+        "instructor": "Emily Johnson",
+        "isFeatured": true,
+        "image": "https://img.freepik.com/free-photo/two-guys-talking-about-work-work-garage-near-truck-transfer-documents-with-goods_1157-46509.jpg?t=st=1734895471~exp=1734899071~hmac=56b5556bc000ec4c958027eb34cfbe9f13d236cb9db8ccac38cd3d7d409a51c8&w=1060"
+      },
+      {
+        "id": 24,
+        "title": "Fuel Management and Optimization",
+        "slug": "fuel-management-and-optimization",
+        "description": "Learn how to manage fuel consumption, optimize fuel usage, and reduce fuel theft in your fleet.",
+        "price": 129.99,
+        "instructor": "Mike Brown",
+        "isFeatured": false,
+        "image": "https://img.freepik.com/free-vector/fuel-pump-banner-set_1284-22473.jpg?t=st=1734895527~exp=1734899127~hmac=4eaebeb570d93421610d7b1a8e8b25dd5adec45bcf52656da9da2749360d0fd3&w=740"
+      },
+      {
+        "id": 25,
+        "title": "Fleet Compliance and Safety Regulations",
+        "slug": "fleet-compliance-and-safety-regulations",
+        "description": "Understand regulatory compliance, manage fleet documentation, and ensure your fleet adheres to all safety standards.",
+        "price": 139.99,
+        "instructor": "Chris Davis",
+        "isFeatured": false,
+        "image": "https://img.freepik.com/free-photo/medium-shot-paramedic-taking-notes_23-2149478502.jpg?t=st=1734895608~exp=1734899208~hmac=0f2006f45291679a07b51eba5d8bfad8c138b075a81f48737638870e04385b3d&w=1060"
+      },
+      {
+        "id": 3333,
+        "title": "Fleet Analytics and Reporting",
+        "slug": "fleet-analytics-and-reporting",
+        "description": "Learn how to generate detailed fleet reports, analyze fleet performance data, and make data-driven decisions.",
+        "price": 149.99,
+        "instructor": "Alex Wilson",
+        "isFeatured": true,
+        "image": "https://img.freepik.com/premium-photo/computer-software-website-traffic-analytics-data-computer-screen-snugly_31965-446025.jpg?w=1060"
+      },
+      {
+        "id": 3347,
+        "title": "Telematics Integration for Fleet Management",
+        "slug": "telematics-integration-for-fleet-management",
+        "description": "Understand telematics technology and how to integrate it into your fleet management system for better vehicle diagnostics and real-time data.",
+        "price": 159.99,
+        "instructor": "Samantha Miller",
+        "isFeatured": false,
+        "image": "https://img.freepik.com/free-vector/smart-parking-man-user-with-smartphone-touch-screen-control-car-driving-park_33099-165.jpg?t=st=1734895849~exp=1734899449~hmac=726651bc427bbc520fd483645b16fe632a897180762f16aa8e8fe8d70a677085&w=740"
+      },
+      {
+        "id": 5554588,
+        "title": "Fleet Dispatch and Routing Optimization",
+        "slug": "fleet-dispatch-and-routing-optimization",
+        "description": "Master the art of dispatching vehicles and optimizing routes to ensure timely deliveries and reduce operational costs.",
+        "price": 169.99,
+        "instructor": "Luke Harris",
+        "isFeatured": true,
+        "image": "https://img.freepik.com/free-photo/supply-chain-representation-still-life_23-2150172446.jpg?t=st=1734895880~exp=1734899480~hmac=9f717b38878e22c6e3c200afe07614794a7636375d637ad73610a9e724c10efb&w=1060"
+      },
+      {
+        "id": 888889,
+        "title": "Risk Management in Fleet Operations",
+        "slug": "risk-management-in-fleet-operations",
+        "description": "Learn how to identify and manage risks in fleet operations, including theft, accidents, and safety violations.",
+        "price": 179.99,
+        "instructor": "Grace Lee",
+        "isFeatured": false,
+        "image": "https://img.freepik.com/premium-photo/business-logistic-import-export-transport-industry-transportation-logistic-network-distribution-growth-container-cargo-ship-trucks-industrial-cargo-freight-shipping_10221-57697.jpg?w=1380"
+      },
+      {
+        "id": 11240,
+        "title": "Fleet Costing and Budgeting",
+        "slug": "fleet-costing-and-budgeting",
+        "description": "Learn how to track and optimize fleet-related costs, create budgets, and implement cost-reduction strategies for a more profitable fleet operation.",
+        "price": 189.99,
+        "instructor": "Ethan Moore",
+        "isFeatured": true,
+        "image": "https://img.freepik.com/free-photo/logistics-means-transport-together-with-technological-futuristic-holograms_23-2151662945.jpg?t=st=1734895764~exp=1734899364~hmac=83e6f920ef078d1ce035c2a2e513a6aece4426a0c26d92b5a6db1cf0f99fbfee&w=900"
+      }
+    ]
+  }
+  
