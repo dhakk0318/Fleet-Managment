@@ -1,11 +1,12 @@
-import { NextResponse } from 'next/server';
+import { NextResponse,NextRequest } from 'next/server';
 import jwt from 'jsonwebtoken';
 
-export function middleware(req: Request) {
+export function middleware(req: NextRequest) {
   const token = req.cookies.get('access_token');  // Get the access token
   const refreshToken = req.cookies.get('refresh_token');  // Get the refresh token
 
   if (!token) {
+
     // If no access token, try to refresh with refresh token
     if (!refreshToken) {
       return new NextResponse('Unauthorized', { status: 401 });
@@ -27,7 +28,10 @@ export function middleware(req: Request) {
       headers.append('Set-Cookie', `access_token=${newAccessToken}; HttpOnly; Max-Age=900; Path=/; Secure; SameSite=Strict;`);
 
       return new NextResponse('Token refreshed', { status: 200, headers });
-    } catch (error) {
+    } catch (error: any) {
+      if (error instanceof Error) {
+        console.error(error.message); // Log the error message
+      }
       return new NextResponse('Unauthorized', { status: 401 });
     }
   }
@@ -40,3 +44,9 @@ export function middleware(req: Request) {
     return new NextResponse('Unauthorized', { status: 401 });
   }
 }
+
+export const config = {
+  matcher: [
+    '/api/protected',
+  ],
+};

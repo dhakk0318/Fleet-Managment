@@ -88,7 +88,7 @@ function HeroSection() {
     <div className="min-h-screen bg-black relative flex flex-col items-center justify-center antialiased">
       {/* Hero Content */}
       <div className="p-4 relative z-10 w-full text-center">
-        <h1 className="mt-20 md:mt-0 text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-red-600 via-blue-600 to-yellow-600">
+        <h1 className="mt-20 md:mt-0 text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-red-600 via-sky-500 to-yellow-600 ">
           TNP Logistics Fleet Management
         </h1>
         <p className="mt-8 first-line:text-xl text-neutral-300 font-sans max-w-lg mx-auto">
